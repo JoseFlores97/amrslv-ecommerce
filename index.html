@@ -102,25 +102,40 @@
     </header>
     <main>
 
-      <section class="uk-position-relative uk-visible-toggle uk-light" uk-slideshow="min-height: 300; max-height: 600;">
-        <ul class="uk-slideshow-items">
-          <li style="background-color: #0b0a12"><a href="#">
-              <figure class="uk-container uk-height-1-1"><img src="images/promo/macbook-new.jpg" alt="New Macbook"
-                  width="1200" height="600" uk-cover></figure>
+      <section class="uk-position-relative uk-visible-toggle uk-light uk-slideshow"
+        uk-slideshow="min-height: 300; max-height: 600;">
+
+        <ul class="uk-slideshow-items" style="height: 493px;">
+          <li style="background-color: rgb(11, 10, 18); transform: translateX(0px);"
+            class="uk-active uk-transition-active"><a href="#">
+              <figure class="uk-container uk-height-1-1"><img src="images/promo/sldr1.png" alt="New Macbook"
+                  width="1200" height="600" uk-cover="" class="uk-cover" style="width: 988px; height: 494px;"></figure>
             </a></li>
           <li style="background-color: #ce071e"><a href="#">
-              <figure class="uk-container uk-height-1-1"><img src="images/promo/iphone.jpg" alt="iPhone" width="1200"
-                  height="600" uk-cover></figure>
+              <figure class="uk-container uk-height-1-1"><img src="images/promo/sldr2.png" alt="iPhone" width="1200"
+                  height="600" uk-cover="" class="uk-cover"></figure>
             </a></li>
           <li style="background-color: #1f2024"><a href="#">
-              <figure class="uk-container uk-height-1-1"><img src="images/promo/ipad.jpg" alt="iPad" width="1200"
-                  height="600" uk-cover></figure>
+              <figure class="uk-container uk-height-1-1"><img src="images/promo/sldr3.png" alt="iPad" width="1200"
+                  height="600" uk-cover="" class="uk-cover"></figure>
             </a></li>
-        </ul><a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#" uk-slideshow-item="previous"
-          uk-slidenav-previous></a><a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#"
-          uk-slideshow-item="next" uk-slidenav-next></a>
+        </ul><a
+          class="uk-position-center-left uk-position-small uk-hidden-hover uk-slidenav-previous uk-icon uk-slidenav"
+          href="#" uk-slideshow-item="previous" uk-slidenav-previous=""><svg width="14" height="24" viewBox="0 0 14 24"
+            xmlns="http://www.w3.org/2000/svg">
+            <polyline fill="none" stroke="#000" stroke-width="1.4" points="12.775,1 1.225,12 12.775,23 "></polyline>
+          </svg></a><a
+          class="uk-position-center-right uk-position-small uk-hidden-hover uk-slidenav-next uk-icon uk-slidenav"
+          href="#" uk-slideshow-item="next" uk-slidenav-next=""><svg width="14" height="24" viewBox="0 0 14 24"
+            xmlns="http://www.w3.org/2000/svg">
+            <polyline fill="none" stroke="#000" stroke-width="1.4" points="1.225,23 12.775,12 1.225,1 "></polyline>
+          </svg></a>
         <div class="uk-position-bottom-center uk-position-small">
-          <ul class="uk-slideshow-nav uk-dotnav"></ul>
+          <ul class="uk-slideshow-nav uk-dotnav">
+            <li uk-slideshow-item="0" class="uk-active"><a href="#"></a></li>
+            <li uk-slideshow-item="1"><a href="#"></a></li>
+            <li uk-slideshow-item="2"><a href="#"></a></li>
+          </ul>
         </div>
       </section>
 
@@ -131,7 +146,7 @@
                 href="subcategory.html">
                 <div class="tm-ratio tm-ratio-4-3">
                   <div class="tm-media-box">
-                    <figure class="tm-media-box-wrap"><img class="item-brand" src="/images/catalog/laptops.png"
+                    <figure class="tm-media-box-wrap"><img class="item-brand" src="/images/catalog/Imagen1.png"
                         alt="Laptops"></figure>
                   </div>
                 </div>
@@ -144,7 +159,7 @@
                 href="subcategory.html">
                 <div class="tm-ratio tm-ratio-4-3">
                   <div class="tm-media-box">
-                    <figure class="tm-media-box-wrap"><img class="item-brand" src="images/catalog/smartphones.png"
+                    <figure class="tm-media-box-wrap"><img class="item-brand" src="images/catalog/Imagen2.png"
                         alt="Smartphones"></figure>
                   </div>
                 </div>
@@ -157,7 +172,7 @@
                 href="subcategory.html">
                 <div class="tm-ratio tm-ratio-4-3">
                   <div class="tm-media-box">
-                    <figure class="tm-media-box-wrap"><img class="item-brand" src="images/catalog/tablets.png"
+                    <figure class="tm-media-box-wrap"><img class="item-brand" src="images/catalog/Imagen3.png"
                         alt="Tablets"></figure>
                   </div>
                 </div>
@@ -170,7 +185,7 @@
                 href="subcategory.html">
                 <div class="tm-ratio tm-ratio-4-3">
                   <div class="tm-media-box">
-                    <figure class="tm-media-box-wrap"><img class="item-brand" src="images/catalog/watches.png"
+                    <figure class="tm-media-box-wrap"><img class="item-brand" src="images/catalog/Imagen4.png"
                         alt="Smart Watches"></figure>
                   </div>
                 </div>
@@ -183,7 +198,7 @@
                 href="subcategory.html">
                 <div class="tm-ratio tm-ratio-4-3">
                   <div class="tm-media-box">
-                    <figure class="tm-media-box-wrap"><img class="item-brand" src="images/catalog/consoles.png"
+                    <figure class="tm-media-box-wrap"><img class="item-brand" src="images/catalog/Imagen5.png"
                         alt="Gaming Consoles"></figure>
                   </div>
                 </div>
@@ -196,7 +211,7 @@
                 href="subcategory.html">
                 <div class="tm-ratio tm-ratio-4-3">
                   <div class="tm-media-box">
-                    <figure class="tm-media-box-wrap"><img class="item-brand" src="images/catalog/cameras.png"
+                    <figure class="tm-media-box-wrap"><img class="item-brand" src="images/catalog/Imagen6.png"
                         alt="Cameras"></figure>
                   </div>
                 </div>
@@ -222,7 +237,7 @@
                   <div class="tm-ratio tm-ratio-4-3"><a class="tm-media-box" href="product.html">
                       <div class="tm-product-card-labels"><span class="uk-label uk-label-warning">top
                           selling</span><span class="uk-label uk-label-danger">trade-in</span></div>
-                      <figure class="tm-media-box-wrap"><img src="images/products/1/1-medium.jpg"
+                      <figure class="tm-media-box-wrap"><img src="images/catalog/Imagen7.png"
                           alt="Apple MacBook Pro 15&quot; Touch Bar MPTU2LL/A 256GB (Silver)" /></figure>
                     </a></div>
                 </div>
@@ -257,12 +272,13 @@
                   </div>
                 </div>
               </article>
+
               <article class="tm-product-card">
                 <div class="tm-product-card-media">
                   <div class="tm-ratio tm-ratio-4-3"><a class="tm-media-box" href="product.html">
                       <div class="tm-product-card-labels"><span class="uk-label uk-label-success">new</span><span
                           class="uk-label uk-label-danger">trade-in</span></div>
-                      <figure class="tm-media-box-wrap"><img src="images/products/2/2-medium.jpg"
+                      <figure class="tm-media-box-wrap"><img src="images/catalog/Imagen1.png"
                           alt="Apple MacBook 12&quot; MNYN2LL/A 512GB (Rose Gold)" /></figure>
                     </a></div>
                 </div>
@@ -297,10 +313,11 @@
                   </div>
                 </div>
               </article>
+
               <article class="tm-product-card">
                 <div class="tm-product-card-media">
                   <div class="tm-ratio tm-ratio-4-3"><a class="tm-media-box" href="product.html">
-                      <figure class="tm-media-box-wrap"><img src="images/products/3/3-medium.jpg"
+                      <figure class="tm-media-box-wrap"><img src="images/catalog/Imagen2.png"
                           alt="Lenovo IdeaPad YOGA 920-13IKB 80Y7001RRK (Copper)" /></figure>
                     </a></div>
                 </div>
@@ -335,12 +352,13 @@
                   </div>
                 </div>
               </article>
+
               <article class="tm-product-card">
                 <div class="tm-product-card-media">
                   <div class="tm-ratio tm-ratio-4-3"><a class="tm-media-box" href="product.html">
                       <div class="tm-product-card-labels"><span class="uk-label uk-label-warning">top selling</span>
                       </div>
-                      <figure class="tm-media-box-wrap"><img src="images/products/4/4-medium.jpg"
+                      <figure class="tm-media-box-wrap"><img src="images/catalog/Imagen3.png"
                           alt="ASUS Zenbook UX330UA-FC020T (Rose Gold)" /></figure>
                     </a></div>
                 </div>
@@ -374,10 +392,11 @@
                   </div>
                 </div>
               </article>
+
               <article class="tm-product-card">
                 <div class="tm-product-card-media">
                   <div class="tm-ratio tm-ratio-4-3"><a class="tm-media-box" href="product.html">
-                      <figure class="tm-media-box-wrap"><img src="images/products/5/5-medium.jpg"
+                      <figure class="tm-media-box-wrap"><img src="images/catalog/Imagen4.png"
                           alt="Dell XPS 15 9560-8968 (Silver)" /></figure>
                     </a></div>
                 </div>
@@ -411,11 +430,12 @@
                   </div>
                 </div>
               </article>
+
               <article class="tm-product-card">
                 <div class="tm-product-card-media">
                   <div class="tm-ratio tm-ratio-4-3"><a class="tm-media-box" href="product.html">
                       <div class="tm-product-card-labels"><span class="uk-label uk-label-danger">trade-in</span></div>
-                      <figure class="tm-media-box-wrap"><img src="images/products/6/6-medium.jpg"
+                      <figure class="tm-media-box-wrap"><img src="images/catalog/Imagen5.png"
                           alt="Apple MacBook Air 13&quot; MQD32LL/A 128GB (Silver)" /></figure>
                     </a></div>
                 </div>
@@ -450,10 +470,11 @@
                   </div>
                 </div>
               </article>
+
               <article class="tm-product-card">
                 <div class="tm-product-card-media">
                   <div class="tm-ratio tm-ratio-4-3"><a class="tm-media-box" href="product.html">
-                      <figure class="tm-media-box-wrap"><img src="images/products/7/7-medium.jpg"
+                      <figure class="tm-media-box-wrap"><img src="images/catalog/Imagen6.png"
                           alt="Dell Inspiron 5378-2063 (Gray)" /></figure>
                     </a></div>
                 </div>
@@ -487,11 +508,12 @@
                   </div>
                 </div>
               </article>
+
               <article class="tm-product-card">
                 <div class="tm-product-card-media">
                   <div class="tm-ratio tm-ratio-4-3"><a class="tm-media-box" href="product.html">
                       <div class="tm-product-card-labels"><span class="uk-label uk-label-success">new</span></div>
-                      <figure class="tm-media-box-wrap"><img src="images/products/8/8-medium.jpg"
+                      <figure class="tm-media-box-wrap"><img src="images/catalog/Imagen7.png"
                           alt="Lenovo Yoga 720-13IKB 80X60059RK (Silver)" /></figure>
                     </a></div>
                 </div>
@@ -653,8 +675,8 @@
                 <li><a class="uk-link-muted" href="#"><span class="uk-margin-small-right" uk-icon="mail"></span><span
                       class="tm-pseudo">amrslv@uane.com</span></a></li>
                 <li>
-                  <div class="uk-text-muted"><span class="uk-margin-small-right"
-                      uk-icon="location"></span><span>Torreón Coahuila</span></div>
+                  <div class="uk-text-muted"><span class="uk-margin-small-right" uk-icon="location"></span><span>Torreón
+                      Coahuila</span></div>
                 </li>
                 <li>
                   <div class="uk-text-muted"><span class="uk-margin-small-right" uk-icon="clock"></span><span>Daily
